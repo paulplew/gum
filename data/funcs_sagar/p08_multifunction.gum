@@ -1,0 +1,19 @@
+fun funAdd(input) = 
+{
+  return input + 23;
+}
+fun funSub(input) = 
+{
+  return input + 100;
+}
+fun funMul(input) = 
+{
+  return input * 100;
+}
+{
+  output = funAdd(7);
+  outputOne = funSub(output);
+  outputTwo = funMul(outputOne);
+  print("Should be 13000");
+  print(outputTwo);
+}

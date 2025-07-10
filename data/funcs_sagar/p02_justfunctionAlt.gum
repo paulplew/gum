@@ -1,0 +1,8 @@
+fun test_f(input) = 
+{
+  outString = "This string reside inside function test_f().";
+  print(outString);
+}
+{
+  callFun = test_f(24);
+}

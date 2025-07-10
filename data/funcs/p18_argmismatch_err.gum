@@ -1,0 +1,9 @@
+fun replace(x, i, y) = {
+    x[i] = y;
+    return x;
+}
+{
+    x = ['hello', 'cs4400', []];
+    print(replace(x,1));
+    print(x);
+}

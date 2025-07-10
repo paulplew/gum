@@ -1,0 +1,12 @@
+{
+    c = 22;
+    res = addCPlusOne(100);
+    print(res);
+}
+fun addCPlusOne(x) = {
+    return x - c + 1;
+}
+{
+    c = 10;
+    print(addCPlusOne(200));
+}

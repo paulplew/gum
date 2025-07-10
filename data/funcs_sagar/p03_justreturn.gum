@@ -1,0 +1,7 @@
+fun argsReturn() = 
+{
+  outString = "The function is trying to return";
+}
+{
+  print(argsReturn());
+}

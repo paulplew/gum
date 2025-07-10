@@ -1,0 +1,10 @@
+{
+    fun nextedCheck(num) = {
+        return num * 10;
+    }
+    result = nextedCheck(100);
+}
+{
+    print("Should throw syntax error due to nexted function block");
+    print(nextedCheck(200));
+}

@@ -1,0 +1,7 @@
+fun blarg(n) = 
+{
+  output = "The function has returned.";
+}
+{
+  print(blarg(0));
+}

@@ -1,0 +1,17 @@
+fun fact(num) = 
+{
+  numFactorial = 0;
+  if (num < 1)
+  {
+    numFactorial = 1;
+  }
+  else
+  {
+    numFactorial = num * fact(num-1);
+  }
+  return numFactorial;
+}
+{
+  print("fact(9) = 362880");
+  print(fact(9));
+}

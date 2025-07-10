@@ -1,0 +1,10 @@
+{
+    fun addCPlusOne(x) = {
+        return x + 1;
+    }
+    res = addCPlusOne(100);
+}
+{
+    print("Syntax Error due to inner function definition");
+    print(addCPlusOne(200));
+}

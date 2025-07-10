@@ -1,0 +1,17 @@
+fun factorial(n) = 
+{
+  out = 0;
+  if (n < 1)
+  {
+    out = 1;
+  }
+  else
+  {
+    out = n * factorial(n-1);
+  }
+  return out;
+}
+{
+  print("factorial(7) = 5040");
+  print(factorial(7));
+}

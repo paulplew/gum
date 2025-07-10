@@ -1,0 +1,18 @@
+fun minimum(inList, len) = 
+{
+  cur_min = 1000;
+  i = 0;
+  while (i < len)
+  {
+    if (inList[i] < cur_min)
+    {
+      cur_min = inList[i];
+    }
+    i = i + 1;
+  }
+  return cur_min;
+}
+{
+  print("minimum is -3");
+  print(minimum([122, 44, 32, 7, 89, 56, 330, 17, 9191, -3], 10));
+}

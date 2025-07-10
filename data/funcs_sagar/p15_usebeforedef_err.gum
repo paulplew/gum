@@ -1,0 +1,12 @@
+{
+    c = 22;
+    check = callFunBeforeDef(3656);
+    print(res);
+}
+fun callFunBeforeDef(num) = {
+    return num - c + 1;
+}
+{
+    c = 123;
+    print(callFunBeforeDef(211));
+}

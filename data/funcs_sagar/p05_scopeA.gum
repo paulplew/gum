@@ -1,0 +1,11 @@
+fun printPlanet(planet) = 
+{
+  x = "Mars";
+  print(x);
+  return "Venus";
+}
+{
+  x = "Earth";
+  y = printPlanet(x);
+  print(x);
+}

@@ -1,0 +1,11 @@
+fun splorp(n) = 
+{
+  x = "function";
+  print(x);
+  return 0;
+}
+{
+  x = "main";
+  y = splorp(x);
+  print(x);
+}

@@ -1,0 +1,10 @@
+fun replacePos(arr, pos, newVal) = {
+    arr[pos] = newVal;
+    return arr;
+}
+{
+    array = ['testing', 'complete', ['for','cs4400']];
+    print(replacePos(array,1,'completed'));
+    print(array);
+}
+

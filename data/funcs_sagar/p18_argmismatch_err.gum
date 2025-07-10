@@ -1,0 +1,9 @@
+fun checkMismatch(arr, pos, newPos) = {
+    arr[pos] = newPos;
+    return arr;
+}
+{
+    arr = ['hello', 'cs4400', []];
+    print(checkMismatch(arr,3));
+    print(arr);
+}

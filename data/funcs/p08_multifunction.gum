@@ -1,0 +1,19 @@
+fun f1(x) = 
+{
+  return x + 10;
+}
+fun f2(y) = 
+{
+  return y + 100;
+}
+fun f3(z) = 
+{
+  return z + 1000;
+}
+{
+  res = f1(5);
+  res = f2(res);
+  res = f3(res);
+  print("Should be 1115");
+  print(res);
+}

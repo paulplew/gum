@@ -1,0 +1,19 @@
+fun gcd(inputA, inputB) = 
+{
+  t = inputB;
+  inputB = inputA mod inputB;
+  outputGcd = -1;
+  if (inputB == 0)
+  {
+    outputGcd = t;
+  }
+  else
+  {
+    outputGcd = gcd(inputA, inputB);
+  }
+  return outputGcd;
+}
+{
+  print("gcd(749, 91) = 7");
+  print(gcd(749, 91));
+}

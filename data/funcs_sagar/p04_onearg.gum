@@ -1,0 +1,7 @@
+fun echo(inputStr) = 
+{
+  return inputStr;
+}
+{
+  print(echo("Echo Message - Able to print echo the message"));
+}

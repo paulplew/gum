@@ -1,0 +1,9 @@
+fun getArr(arr) = {
+    arr = [11,32,13,34,75];
+    return arr;
+}
+{
+    arr = ['s', (11,21,), 733];
+    print(getArr(arr));
+    print(arr);
+}

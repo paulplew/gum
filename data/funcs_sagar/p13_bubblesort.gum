@@ -1,0 +1,32 @@
+fun bubbleSortTest(arr, length) =
+{
+  outerCount = 0;
+  while (outerCount < (length -1))
+  {
+    innerCount = 0;
+    while (innerCount < ((length - outerCount) - 1))
+    {
+      next = (innerCount + 1);
+      if (arr[innerCount] > arr[next])
+      {
+        temp = arr[innerCount];
+        arr[innerCount] = arr[next];
+        arr[next] = temp;
+      }
+      innerCount = innerCount + 1;
+    }
+    outerCount = outerCount + 1;
+  }
+  return arr;
+}
+{
+  print("Sorted list is: [-96,-34,0,4,43,123,142,222,1000,1001]");
+  inArr = [-34, 0, 123, 43, 222, 142, 4, -96, 1000, 1001];
+  outArr = bubbleSortTest(inArr, 10);
+  n = 0;
+  while (n < 10)
+  {
+    print(outArr[n]);
+    n = n + 1;
+  }
+}

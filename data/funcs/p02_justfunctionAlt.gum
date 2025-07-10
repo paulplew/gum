@@ -1,0 +1,7 @@
+fun f(n) = 
+{
+  print("Printed inside function f().");
+}
+{
+  x = f(0);
+}

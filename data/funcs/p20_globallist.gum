@@ -1,0 +1,9 @@
+fun init() = {
+    x = [1,2,3];
+    return x;
+}
+{
+    x = ['l', (1,2,)];
+    print(init());
+    print(x);
+}

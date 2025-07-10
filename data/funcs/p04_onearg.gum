@@ -1,0 +1,7 @@
+fun gleep(x) = 
+{
+  return x;
+}
+{
+  print(gleep("The argument has been returned."));
+}

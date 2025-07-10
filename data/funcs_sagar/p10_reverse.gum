@@ -1,0 +1,14 @@
+fun revString(str, length) = 
+{
+  i = 0;
+  reversedString = "";
+  while(i < length)
+  {
+    reversedString = str[i] + reversedString;
+    i = i + 1;
+  }
+  return reversedString;
+}
+{
+  print(revString("?siht daer ot elba uoy erA", 26));
+}

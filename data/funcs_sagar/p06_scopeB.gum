@@ -1,0 +1,10 @@
+fun multiply(x) = 
+{
+  return x * 19;
+}
+{
+  x = 10;
+  y = multiply(x);
+  print("It should print 190");
+  print(y);
+}
