@@ -1,13 +1,3 @@
-import pytest
-
-from gum_lexer import GumLexer
-
-
-@pytest.fixture(name="lexer")
-def lexer_fixture():
-    return GumLexer()
-
-# pylint: disable=too-many-public-methods
 class TestGumLexer:
     def test_tokenize_integer_1(self, lexer):
         text = "20304"
