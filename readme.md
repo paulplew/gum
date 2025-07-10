@@ -1,5 +1,22 @@
 # Gum | PL
-A simple interpreted functional language implemented using `sly`.
+A simple interpreted functional language implemented using python [`sly`](https://github.com/dabeaz/sly).
+
+## Recursive Factorial
+```
+fun fact(num) = 
+{
+  numFactorial = 0;
+  if (num < 1)
+  {
+    numFactorial = 1;
+  }
+  else
+  {
+    numFactorial = num * fact(num-1);
+  }
+  return numFactorial;
+}
+```
 
 ## Quick Start
 ### Variable Definition
@@ -45,4 +62,4 @@ while (foo >= 0)
 2. Install python requirements `pip install -r requirements.txt` 
 
 ## Testing
-This project uses `pytest` and has some sample scripts in `tests/test_data`.
+This project uses `pytest` and has a number of [sample scripts](tests/test_data) that are used for testing.
